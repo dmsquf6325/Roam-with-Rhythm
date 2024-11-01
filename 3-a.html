@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roam with Rhythm</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 전체 페이지 배경 및 기본 색상 설정 */
+        body {
+            background-color: #faf8e0;
+            color: #333;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            background-color: #F8F7E0;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 사이트 제목 */
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #565b6e;
+        }
+
+        /* 로고 이미지 스타일 */
+        .logo {
+            width: 230px; /* 로고 크기 조절 */
+            margin-top: 10px;
+        }
+
+                /* 로고 이미지 스타일 */
+                .logo {
+            width: 230px; /* 로고 크기 조절 */
+            display: block;
+            margin: 10px auto 0; /* 로고 위치 조정 */
+        } 
+
+        /* 네비게이션 스타일 */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #343c41;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+                /* 진한 색 표시 스타일 */
+                nav ul li a.c {
+            background-color: #6c566e;
+            color: #faf8e0;
+        }
+
+        /* 진한 색 표시 및 보라색 텍스트 설정 */
+        nav ul li a.c {
+            color: #edd3f0; /* 보라색 텍스트 */
+        }
+
+        nav ul li a:hover {
+            background-color: #837891;
+        }
+
+        /* 로그인/회원가입 */
+        .auth {
+            margin-left: auto;
+            display: flex;
+            gap: 10px;
+        }
+
+        .auth a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .auth a:hover {
+            background-color: #837891;
+        }
+
+        /* 메인 섹션 */
+        main {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        main h2 {
+            font-size: 1.5em;
+            color: #4a5053;
+            margin-bottom: 20px;
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            background-color: #343c41;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Roam with Rhythm</h1>
+        <img src="Roam_with_Rhythm.png" alt="사이트 로고" class="logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="a">home</a></li>
+            <li><a href="area.html" class="b">area</a></li>
+            <li><a href="song.html" class="d">song</a></li>
+            <li><a href="review.html" class="c">review</a></li>
+        </ul>
+        <div class="auth">
+            <a href="#login">로그인</a>
+            <a href="#signup">회원가입</a>
+        </div>
+    </nav>
